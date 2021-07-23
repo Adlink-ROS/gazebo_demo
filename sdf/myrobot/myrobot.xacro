@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<robot name="myrobot" xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:property name="the_length" value="0.6" />
+  <xacro:property name="the_radius" value="0.2" />
+
+  <material name="blue">
+    <color rgba="0 0 0.8 1"/>
+  </material>
+  <material name="black">
+    <color rgba="0 0 0 1"/>
+  </material>
+  <material name="white">
+    <color rgba="1 1 1 1"/>
+  </material>
+
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <cylinder length="${the_length}" radius="${the_radius}"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="${the_length}" radius="${the_radius}"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="10"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+  </link>
+
+</robot>
