@@ -3,8 +3,8 @@
 * Install xacro
 
 ```bash
-sudo apt install ros-noetic-xacor
-sudo apt install ros-foxy-xacor
+sudo apt install ros-noetic-xacro
+sudo apt install ros-foxy-xacro
 ```
 
 * Transform XACRO to URDF
