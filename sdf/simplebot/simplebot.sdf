@@ -1,5 +1,5 @@
 <sdf version='1.7'>
-  <model name='myrobot'>
+  <model name='simplebot'>
     <link name='base_link'>
       <inertial>
         <pose>0 0 0 0 -0 0</pose>
