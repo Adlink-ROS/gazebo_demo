@@ -6,3 +6,4 @@ This repo contains some demo code for Gazebo tutorial.
 * [xacro](xacro): Example xacro
 * [sdf](sdf): Example SDF
 * [gazebo_models](gazebo_models): Some Gazebo models
+* [ignition](ignition): Ignition example
